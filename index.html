@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gizlilik Politikası</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      line-height: 1.6;
+      color: #333;
+    }
+    h1, h2 {
+      color: #2c3e50;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 10px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    strong {
+      color: #2c3e50;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f4f4f4;
+    }
+  </style>
+</head>
+<body>
+  <h1>Gizlilik Politikası</h1>
+
+  <p>Son güncelleme: <strong>24 Haziran 2025</strong></p>
+
+  <h2>1. Toplanan Veriler ve İzinler</h2>
+  <p>CRM uygulamamız, Meta (Facebook, Instagram, WhatsApp) platformlarıyla entegredir ve aşağıdaki izinler doğrultusunda veri işlemektedir:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>İzin</th>
+        <th>Veri Türü</th>
+        <th>Kullanım Amacı</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>public_profile</td>
+        <td>Kullanıcı adı, profil resmi</td>
+        <td>Profil doğrulaması</td>
+      </tr>
+      <tr>
+        <td>email</td>
+        <td>Kullanıcının e-posta adresi</td>
+        <td>Kullanıcı kaydı ve iletişim</td>
+      </tr>
+      <tr>
+        <td>pages_read_engagement</td>
+        <td>Sayfa yorumları, beğeniler, içerik etkileşimi</td>
+        <td>Sayfa etkileşimlerinin görüntülenmesi</td>
+      </tr>
+      <tr>
+        <td>pages_manage_metadata</td>
+        <td>Sayfa bağlantı bilgileri, webhook bağlantısı</td>
+        <td>Webhooks ile mesaj/yorum güncellemelerinin alınması</td>
+      </tr>
+      <tr>
+        <td>pages_messaging</td>
+        <td>Facebook DM mesajları</td>
+        <td>Müşteri mesajlarının görüntülenmesi</td>
+      </tr>
+      <tr>
+        <td>instagram_basic</td>
+        <td>Instagram işletme hesabı adı, profil resmi</td>
+        <td>Marka profillerinin eşleştirilmesi</td>
+      </tr>
+      <tr>
+        <td>instagram_manage_messages</td>
+        <td>Instagram DM mesajları</td>
+        <td>CRM panelinde mesaj yönetimi</td>
+      </tr>
+      <tr>
+        <td>instagram_manage_comments</td>
+        <td>Instagram yorumları</td>
+        <td>Yorumları takip etme ve yanıt verme</td>
+      </tr>
+      <tr>
+        <td>ads_read</td>
+        <td>Kampanya metrikleri, bütçe, performans verileri</td>
+        <td>Reklam analizleri ve raporlama</td>
+      </tr>
+      <tr>
+        <td>ads_management</td>
+        <td>Reklam kampanyalarının durumu, hedeflemeler</td>
+        <td>Kampanya kontrolü (isteğe bağlı)</td>
+      </tr>
+      <tr>
+        <td>leads_retrieval</td>
+        <td>Facebook Lead Form verileri</td>
+        <td>Potansiyel müşteri (lead) yönetimi</td>
+      </tr>
+      <tr>
+        <td>read_insights</td>
+        <td>Sayfa, içerik erişim ve etkileşim istatistikleri</td>
+        <td>Performans raporlama</td>
+      </tr>
+      <tr>
+        <td>pages_manage_posts</td>
+        <td>Sayfa içeriklerinin paylaşılması</td>
+        <td>İçerik planlama ve paylaşım (opsiyonel)</td>
+      </tr>
+      <tr>
+        <td>business_management</td>
+        <td>İşletme kaynakları (sayfa, reklam, piksel)</td>
+        <td>CRM’e sayfa ve reklam hesabı ekleme</td>
+      </tr>
+      <tr>
+        <td>whatsapp_business_messaging</td>
+        <td>WhatsApp üzerinden gelen mesajlar</td>
+        <td>WhatsApp mesajlarını CRM’de gösterme</td>
+      </tr>
+      <tr>
+        <td>whatsapp_business_management</td>
+        <td>WhatsApp hesap ve izin ayarları</td>
+        <td>Numara bağlantı ve erişim yönetimi</td>
+      </tr>
+    </tbody>
+  </table>
+  <p><em>* public_profile ve email izinleri, yalnızca uygulamaya giriş doğrulaması için kullanılır. Uygulama tarafından saklanmaz ya da işlenmez.</em></p>
+
+  <h2>2. Verilerin Saklanması ve Korunması</h2>
+  <ul>
+    <li><strong>Veritabanı:</strong> PostgreSQL (Hetzner sunucularında barındırılır)</li>
+    <li><strong>Şifreleme:</strong> pgcrypto ile hassas veriler şifrelenir</li>
+    <li><strong>Saklama Süresi:</strong> Maksimum 30 gün (KVKK & GDPR uyumlu)</li>
+    <li><strong>Lokasyon:</strong> Hetzner Almanya veri merkezleri</li>
+  </ul>
+  <p><em>* Meta platformlarıyla veri bağlantıları yalnızca ilgili işletme sayfa yöneticisinin açık rızası ve erişim onayıyla gerçekleştirilir. Uygulama, yetkisiz şekilde hiçbir veri çekmez veya saklamaz.</p>
+  <h2>3. Kullanım Amaçları</h2>
+  <p>Toplanan veriler şu amaçlarla işlenir:</p>
+  <ul>
+    <li>Marka hesaplarını sosyal medya API'leriyle ilişkilendirmek</li>
+    <li>Facebook ve Instagram yorumlarını, mesajlarını CRM paneline getirmek</li>
+    <li>Reklam ve kampanya performanslarını raporlamak</li>
+    <li>Lead formlarından gelen talepleri yönetmek</li>
+    <li>WhatsApp mesajlarını markaya iletmek ve saklamak</li>
+  </ul>
+
+  <h2>4. Veri Paylaşımı</h2>
+  <p>Veriler hiçbir üçüncü tarafla paylaşılmaz. Erişim yalnızca:</p>
+  <ul>
+    <li>Yetkili sistem yöneticileri</li>
+    <li>Sunucu sağlayıcı (Hetzner GmbH) altyapı seviyesinde</li>
+  </ul>
+
+  <h2>5. Kullanıcı Hakları</h2>
+  <p>Kullanıcılar aşağıdaki haklara sahiptir:</p>
+  <ul>
+    <li>İşlenen verileri öğrenme</li>
+    <li>Yanlış verilerin düzeltilmesini isteme</li>
+    <li>Verilerin silinmesini talep etme</li>
+    <li>İşleme itiraz etme</li>
+  </ul>
+  <p>Talepler için: <a href="mailto:kvk@adendigitalgroup.com">kvk@adendigitalgroup.com</a></p>
+
+  <h2>6. Güvenlik Önlemleri</h2>
+  <ul>
+    <li>SSL/TLS ile şifreli veri transferi</li>
+    <li>Düzenli güvenlik güncellemeleri</li>
+    <li>DLP ve yetki yönetimi</li>
+    <li>KVKK ve gizlilik eğitimleri</li>
+  </ul>
+
+  <h2>7. Yasal Uyum</h2>
+  <ul>
+    <li>6698 Sayılı Kişisel Verilerin Korunması Kanunu (KVKK)</li>
+    <li>EU GDPR</li>
+    <li>Meta Geliştirici Politikaları</li>
+    <li>5651 Sayılı Kanun</li>
+  </ul>
+  <h2>8. İletişim</h2>
+  <p><strong>Veri Sorumlusu:</strong> ADEN GROUP YAZILIM SANAYİ VE TİCARET LİMİTED ŞİRKETİ</p>
+  <p><strong>Adres:</strong> Metropark Sefaköy, Kartaltepe, Süvari Cd. No:10 D:1 BLOK, 34295 Küçükçekmece/İstanbul</p>
+  <p><strong>E-Posta:</strong> <a href="mailto:kvk@adendigitalgroup.com">kvk@adendigitalgroup.com</a></p>
+  <p><strong>Telefon:</strong> +90 536 510 39 61</p>
+
+  <p>Bu gizlilik politikası, Meta App Review ve kullanıcı bilgilendirme amacıyla düzenlenmiştir. Güncellemeler web sitemizde yayınlanacaktır.</p>
+</body>
+</html>
