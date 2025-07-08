@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,41 +14,54 @@
       line-height: 1.6;
       color: #333;
     }
-    h1, h2 {
+
+    h1,
+    h2 {
       color: #2c3e50;
       border-bottom: 1px solid #eee;
       padding-bottom: 10px;
     }
+
     ul {
       padding-left: 20px;
     }
+
     strong {
       color: #2c3e50;
     }
+
     table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 10px;
     }
-    table, th, td {
+
+    table,
+    th,
+    td {
       border: 1px solid #ccc;
     }
-    th, td {
+
+    th,
+    td {
       padding: 8px;
       text-align: left;
     }
+
     th {
       background-color: #f4f4f4;
     }
   </style>
 </head>
+
 <body>
   <h1>Gizlilik Politikası</h1>
 
   <p>Son güncelleme: <strong>24 Haziran 2025</strong></p>
 
   <h2>1. Toplanan Veriler ve İzinler</h2>
-  <p>CRM uygulamamız, Meta (Facebook, Instagram, WhatsApp) platformlarıyla entegredir ve aşağıdaki izinler doğrultusunda veri işlemektedir:</p>
+  <p>CRM uygulamamız, Meta (Facebook, Instagram, WhatsApp) platformlarıyla entegredir ve aşağıdaki izinler doğrultusunda
+    veri işlemektedir:</p>
 
   <table>
     <thead>
@@ -99,6 +113,21 @@
         <td>Yorumları takip etme ve yanıt verme</td>
       </tr>
       <tr>
+        <td>pages_read_insights</td>
+        <td>Sayfa takipçi demografisi, erişim istatistikleri</td>
+        <td>Hedef kitle analizi ve raporlama</td>
+      </tr>
+      <tr>
+        <td>instagram_content_publish</td>
+        <td>Gönderi metni, görsel/video, konum bilgisi</td>
+        <td>Instagram'a içerik planlama ve paylaşım</td>
+      </tr>
+      <tr>
+        <td>instagram_manage_insights</td>
+        <td>Gönderi/video izlenme, etkileşim oranları, takipçi büyüme verileri</td>
+        <td>Instagram performans raporlaması ve analiz</td>
+      </tr>
+      <tr>
         <td>ads_read</td>
         <td>Kampanya metrikleri, bütçe, performans verileri</td>
         <td>Reklam analizleri ve raporlama</td>
@@ -113,6 +142,12 @@
         <td>Facebook Lead Form verileri</td>
         <td>Potansiyel müşteri (lead) yönetimi</td>
       </tr>
+      <h3>Mesaj ve Lead Verilerinin İşlenmesi</h3>
+      <p>
+        Müşteri mesajları ve lead bilgileri <strong>şifrelenerek</strong> saklanır.
+        WhatsApp/Instagram/Facebook verileri yalnızca <strong>yetkilendirilmiş personel</strong> tarafından
+        erişilebilir.
+      </p>
       <tr>
         <td>read_insights</td>
         <td>Sayfa, içerik erişim ve etkileşim istatistikleri</td>
@@ -122,6 +157,11 @@
         <td>pages_manage_posts</td>
         <td>Sayfa içeriklerinin paylaşılması</td>
         <td>İçerik planlama ve paylaşım (opsiyonel)</td>
+      </tr>
+      <tr>
+        <td>pages_manage_engagement</td>
+        <td>Facebook yorumlari</td>
+        <td>Müşteri yorumlarına cevap verme</td>
       </tr>
       <tr>
         <td>business_management</td>
@@ -140,7 +180,8 @@
       </tr>
     </tbody>
   </table>
-  <p><em>* public_profile ve email izinleri, yalnızca uygulamaya giriş doğrulaması için kullanılır. Uygulama tarafından saklanmaz ya da işlenmez.</em></p>
+  <p><em>* public_profile ve email izinleri, yalnızca uygulamaya giriş doğrulaması için kullanılır. Uygulama tarafından
+      saklanmaz ya da işlenmez.</em></p>
 
   <h2>2. Verilerin Saklanması ve Korunması</h2>
   <ul>
@@ -149,7 +190,8 @@
     <li><strong>Saklama Süresi:</strong> Maksimum 30 gün (KVKK & GDPR uyumlu)</li>
     <li><strong>Lokasyon:</strong> Hetzner Almanya veri merkezleri</li>
   </ul>
-  <p><em>* Meta platformlarıyla veri bağlantıları yalnızca ilgili işletme sayfa yöneticisinin açık rızası ve erişim onayıyla gerçekleştirilir. Uygulama, yetkisiz şekilde hiçbir veri çekmez veya saklamaz.</p>
+  <p><em>* Meta platformlarıyla veri bağlantıları yalnızca ilgili işletme sayfa yöneticisinin açık rızası ve erişim
+      onayıyla gerçekleştirilir. Uygulama, yetkisiz şekilde hiçbir veri çekmez veya saklamaz.</p>
   <h2>3. Kullanım Amaçları</h2>
   <p>Toplanan veriler şu amaçlarla işlenir:</p>
   <ul>
@@ -166,8 +208,27 @@
     <li>Yetkili sistem yöneticileri</li>
     <li>Sunucu sağlayıcı (Hetzner GmbH) altyapı seviyesinde</li>
   </ul>
+  <h3>5. Meta Veri Kullanımı ve Sınırlamalar</h3>
+  <p>
+    Meta platformlarından alınan veriler <strong>yalnızca kullanıcı tarafından yetkilendirilen hesaplar</strong> için
+    işlenir.
+    Veriler; CRM paneline entegre edilerek müşteri etkileşimlerinin takibi, raporlama ve içerik optimizasyonu amacıyla
+    kullanılır.
+    Hiçbir veri reklam hedefleme veya üçüncü taraf pazarlama için kullanılmaz.
+  </p>
+  <h2>6. Meta App Review Onay Süreci</h2>
+  <p>
+    Uygulamamız, Meta'nın <a href="https://developers.facebook.com/docs/app-review" target="_blank">App Review</a>
+    sürecinden geçmiştir.
+    Aşağıdaki kullanım durumları Meta tarafından onaylanmıştır:
+  </p>
+  <ul>
+    <li>Instagram/Facebook gönderi ve yorumlarını okuma</li>
+    <li>Takipçi büyüme ve etkileşim metriklerini analiz etme</li>
+    <li>Reklam performans verilerini görüntüleme</li>
+  </ul>
 
-  <h2>5. Kullanıcı Hakları</h2>
+  <h2>7. Kullanıcı Hakları</h2>
   <p>Kullanıcılar aşağıdaki haklara sahiptir:</p>
   <ul>
     <li>İşlenen verileri öğrenme</li>
@@ -177,7 +238,7 @@
   </ul>
   <p>Talepler için: <a href="mailto:kvk@adendigitalgroup.com">kvk@adendigitalgroup.com</a></p>
 
-  <h2>6. Güvenlik Önlemleri</h2>
+  <h2>8. Güvenlik Önlemleri</h2>
   <ul>
     <li>SSL/TLS ile şifreli veri transferi</li>
     <li>Düzenli güvenlik güncellemeleri</li>
@@ -185,19 +246,21 @@
     <li>KVKK ve gizlilik eğitimleri</li>
   </ul>
 
-  <h2>7. Yasal Uyum</h2>
+  <h2>9. Yasal Uyum</h2>
   <ul>
     <li>6698 Sayılı Kişisel Verilerin Korunması Kanunu (KVKK)</li>
     <li>EU GDPR</li>
     <li>Meta Geliştirici Politikaları</li>
     <li>5651 Sayılı Kanun</li>
   </ul>
-  <h2>8. İletişim</h2>
+  <h2>10. İletişim</h2>
   <p><strong>Veri Sorumlusu:</strong> ADEN GROUP YAZILIM SANAYİ VE TİCARET LİMİTED ŞİRKETİ</p>
   <p><strong>Adres:</strong> Metropark Sefaköy, Kartaltepe, Süvari Cd. No:10 D:1 BLOK, 34295 Küçükçekmece/İstanbul</p>
   <p><strong>E-Posta:</strong> <a href="mailto:kvk@adendigitalgroup.com">kvk@adendigitalgroup.com</a></p>
   <p><strong>Telefon:</strong> +90 536 510 39 61</p>
 
-  <p>Bu gizlilik politikası, Meta App Review ve kullanıcı bilgilendirme amacıyla düzenlenmiştir. Güncellemeler web sitemizde yayınlanacaktır.</p>
+  <p>Bu gizlilik politikası, Meta App Review ve kullanıcı bilgilendirme amacıyla düzenlenmiştir. Güncellemeler web
+    sitemizde yayınlanacaktır.</p>
 </body>
+
 </html>
